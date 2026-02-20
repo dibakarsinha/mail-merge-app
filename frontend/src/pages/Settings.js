@@ -33,7 +33,7 @@ import {
   Visibility as VisibilityIcon,
   VisibilityOff as VisibilityOffIcon,
   Refresh as RefreshIcon,
-  TestTube as TestIcon
+  Science as TestIcon
 } from '@mui/icons-material';
 import { settingsAPI, emailAPI } from '../services/api';
 import toast from 'react-hot-toast';

@@ -1,0 +1,283 @@
+# ====================================
+# DEPENDENCIES
+# ====================================
+
+## Node modules
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+## Backend node modules
+backend/node_modules/
+backend/package-lock.json
+
+## Frontend node modules
+frontend/node_modules/
+frontend/package-lock.json
+
+# ====================================
+# ENVIRONMENT FILES
+# ====================================
+
+## Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+## Backend environment
+backend/.env
+backend/.env.*
+backend/.env.local
+
+## Frontend environment
+frontend/.env
+frontend/.env.*
+frontend/.env.local
+
+# ====================================
+# BUILD OUTPUTS
+# ====================================
+
+## React build
+frontend/build/
+frontend/dist/
+
+## Node build
+backend/dist/
+backend/build/
+
+## General build outputs
+dist/
+build/
+out/
+
+# ====================================
+# LOGS AND DATABASES
+# ====================================
+
+## Logs
+logs/
+*.log
+*.log.*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+## Database
+*.sqlite
+*.sqlite3
+*.db
+*.db-journal
+
+## Temporary files
+tmp/
+temp/
+*.tmp
+*.temp
+
+# ====================================
+# OS GENERATED FILES
+# ====================================
+
+## Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+*.dll
+*.exe
+*.msi
+*.pdb
+
+## macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+._*
+.Spotlight-V100
+.Trashes
+*.icloud
+
+## Linux
+*~
+.swp
+.swo
+*.lock
+
+# ====================================
+# IDE CONFIGURATION
+# ====================================
+
+## VS Code
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+.history/
+
+## Visual Studio
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+## IntelliJ / WebStorm
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+gen/
+
+## Eclipse
+.project
+.classpath
+.settings/
+bin/
+target/
+
+## NetBeans
+nbproject/private/
+nbbuild/
+dist/
+nbdist/
+nbactions.xml
+nb-configuration.xml
+
+# ====================================
+# TESTING COVERAGE
+# ====================================
+
+## Jest
+coverage/
+.nyc_output/
+
+## Cypress
+cypress/videos/
+cypress/screenshots/
+
+## Testing
+*.test.js.snap
+test-results/
+junit.xml
+
+# ====================================
+# CACHE FILES
+# ====================================
+
+## npm cache
+.npm
+
+## eslint cache
+.eslintcache
+
+## parcel cache
+.parcel-cache/
+
+## Next.js
+.next/
+out/
+
+## Gatsby
+.cache/
+public/
+
+## Vue
+.vuepress/dist/
+.vuepress/cache/
+
+## TypeScript
+*.tsbuildinfo
+
+# ====================================
+# PROJECT-SPECIFIC EXCLUSIONS
+# ====================================
+
+## Uploads (if any)
+uploads/
+public/uploads/
+static/uploads/
+
+## Backups
+backups/
+*.bak
+*.backup
+
+## Certificates (if any)
+*.pem
+*.key
+*.crt
+*.cert
+
+## API keys or secrets
+**/*.key
+**/*.p12
+**/*.pfx
+
+## Google Sheets service account keys
+**/*-service-account.json
+**/service-account.json
+**/*-google-credentials.json
+
+# ====================================
+# DEPLOYMENT
+# ====================================
+
+## Vercel
+.vercel
+
+## Netlify
+.netlify
+
+## Heroku
+.heroku
+
+## Docker
+*.pid
+docker-compose.override.yml
+.docker/
+
+## Kubernetes
+*.kubeconfig
+*.kube-config
+
+# ====================================
+# MISC
+# ====================================
+
+## SSH keys
+*.pem
+*.pub
+
+## System files
+*.swp
+*.swo
+*~
+
+## Archive files
+*.zip
+*.tar
+*.gz
+*.rar
+*.7z
+
+## PDF/DOC files (if generated)
+*.pdf
+*.docx
+*.xlsx
+
+# ====================================
+# KEEP THESE FILES
+# ====================================
+
+# Uncomment these if you want to force include them
+# !.env.example
+# !.gitkeep
+# !.gitattributes
